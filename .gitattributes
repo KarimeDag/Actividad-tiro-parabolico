@@ -5,3 +5,5 @@ def tap(x, y):
         ball.y = -199
         speed.x = (x + 300) / 25
         speed.y = (y + 300) / 25
+
+ontimer(move, 10)
