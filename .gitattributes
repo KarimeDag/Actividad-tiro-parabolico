@@ -11,7 +11,6 @@ def tap(x, y):
     if not inside(ball):
         ball.x = -199
         ball.y = -199
-Velocidad-del-juego
         speed.x = (x + 300) / 25
         speed.y = (y + 300) / 25
 
@@ -60,7 +59,6 @@ def move():
         if not inside(target):
             target.x -= 0.5
 
-Velocidad-del-juego
     ontimer(move, 10)
 
 
