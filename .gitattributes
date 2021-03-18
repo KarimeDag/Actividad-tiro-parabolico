@@ -1,2 +1,7 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+def tap(x, y):
+    "Respond to screen tap."
+    if not inside(ball):
+        ball.x = -199
+        ball.y = -199
+        speed.x = (x + 300) / 25
+        speed.y = (y + 300) / 25
